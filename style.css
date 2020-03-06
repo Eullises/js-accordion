@@ -1,0 +1,62 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  width: 500px;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, .2);
+}
+
+.panel {
+  margin-left: 1rem;
+  box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, .2);
+}
+
+
+.panel p {
+  font-size: .8rem;
+  padding: .25rem .5rem;
+  color: rgba(0, 0, 0, .6);
+}
+
+.closed {
+  display: none
+}
+
+.title {
+  padding: .25rem .5rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.title a {
+  display: block;
+  width: 100%;
+  color: blue;
+}
+
+.active,
+.title:hover {
+  background-color: rgba(32, 32, 32, .4);
+  transition: ease-in-out 500ms;
+}
+
+.title span {
+  float: right;
+}
+
+.accordion {
+  margin: 1px 0;
+}
